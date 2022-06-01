@@ -22,5 +22,5 @@ Or  Add it in your root settings.gradle :
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.YousefShaabanSaad:mytoast:Tag'
+	        implementation 'com.github.YousefShaabanSaad:mytoast:1.0.1'
 	}
