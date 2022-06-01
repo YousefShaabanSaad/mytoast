@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardBackgroundColor="#63D101"
     app:cardCornerRadius="10dp"
     app:cardElevation="20dp"
     android:id="@+id/toastCard"
@@ -13,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:minHeight="50dp"
-        android:minWidth="80dp"
+        android:minWidth="100dp"
         android:orientation="horizontal"
         android:layout_margin="5dp"
         android:gravity="center"
@@ -24,14 +23,12 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginEnd="5dp"
-            android:src="#ffffff"
             app:tint="#ffffff"/>
 
         <TextView
             android:id="@+id/toastText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Toast"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#ffffff"/>
